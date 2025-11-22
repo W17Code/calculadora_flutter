@@ -10,20 +10,29 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(15.0),
-            child: Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(20),
-              color: Colors.grey[200],
-              child: const Text(
-                '0',
-                style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
-                textAlign: TextAlign.right,
-              ),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(20),
+            color: Colors.grey[200],
+            child: const Text(
+              '0',
+              style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.right,
             ),
           ),
-          // Aquí puedes añadir los botones debajo
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('7', style: TextStyle(fontSize: 24)),
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('8', style: TextStyle(fontSize: 24)),
+              ),
+            ],
+          ),
         ],
       ),
     );

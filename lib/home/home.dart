@@ -15,7 +15,7 @@ class MyHomePage extends StatelessWidget {
             padding: const EdgeInsets.all(20),
             color: Colors.grey[200],
             child: const Text(
-              '0', 
+              '0',
               style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
               textAlign: TextAlign.right,
             ),
@@ -116,8 +116,9 @@ class MyHomePage extends StatelessWidget {
             children: [
               ElevatedButton(
                 onPressed: () {},
-                child: const Text('Limpiar', style: TextStyle(fontSize: 24)),
+                child: const Icon(Icons.backspace, size: 24),
               ),
+
               ElevatedButton(
                 onPressed: () {},
                 child: const Text('=', style: TextStyle(fontSize: 24)),

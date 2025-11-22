@@ -111,6 +111,19 @@ class MyHomePage extends StatelessWidget {
               ),
             ],
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('Limpiar', style: TextStyle(fontSize: 24)),
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('=', style: TextStyle(fontSize: 24)),
+              ),
+            ],
+          ),
         ],
       ),
     );

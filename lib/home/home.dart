@@ -33,6 +33,19 @@ class MyHomePage extends StatelessWidget {
               ),
             ],
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('9', style: TextStyle(fontSize: 24)),
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('4', style: TextStyle(fontSize: 24)),
+              ),
+            ],
+          ),
         ],
       ),
     );
